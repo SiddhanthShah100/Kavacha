@@ -58,20 +58,15 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon{
+  text-align: center;
+    font-size: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 

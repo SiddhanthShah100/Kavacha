@@ -17,7 +17,7 @@ function Home() {
       <p ></p>
       <div className='banner'/>
       <div className='logo1'>
-        <div className='words'>This app is developed and collaborated with XYZ </div>
+        <div className='words'>This app is developed and collaborated with Our Team </div>
         <div className='mob'>
         <img src={logo1} alt={logo3} className='design'/>
         <img src={logo2} alt={logo3} className='design'/>
