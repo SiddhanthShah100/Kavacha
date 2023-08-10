@@ -85,17 +85,17 @@ const Footer = () => {
           <p><i className="fas fa-home me-3" /> KJSIT,Sion,Mumbai</p>
           <p>
             <i className="fas fa-envelope me-3" />
-            info@example.com
+            info.tech@somaiya.edu
           </p>
-          <p><i className="fas fa-phone me-3" /> + 01 234 567 88</p>
-          <p><i className="fas fa-print me-3" /> + 01 234 567 89</p>
+          <p><i className="fas fa-phone me-3" /> 91 24061403</p>
+          <p><i className="fas fa-print me-3" /> + 91 24061403</p>
         </div>
       </div>
     </div>
   </section>
   <div className="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
     © 2023 Copyright:
-    <a className="text-reset fw-bold" href="/"> Suraksha</a>
+    <a className="text-reset fw-bold" href="/"> Surakshaa</a>
   </div>
 </footer>
 
