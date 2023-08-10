@@ -14,16 +14,16 @@ function About() {
       <div className='container2'>
       <div className="phone d-flex justify-content-evenly">
         <ContactCard col-md-4 
-          Img={avatar5} Title='Dr. Kavita Bathe' Text='Hello my self........' />
+          Img={avatar5} Title='Dr. Kavita Bathe'  />
 
         <ContactCard col-md-4
-          Img={avatar1} Title='Dhruv Chheda' Text='Hello my self........' />
+          Img={avatar1} Title='Dhruv Chheda'  />
 
         <ContactCard col-md-4
-          Img={avatar2} Title='Siddhanth Shah' Text='Hello my self........' />
+          Img={avatar2} Title='Siddhanth Shah'  />
 
         <ContactCard col-md-4
-          Img={avatar3} Title='Yashkumar Dubey' Text='Hello my self........' />
+          Img={avatar3} Title='Yashkumar Dubey'  />
       </div>
       </div>
     </div>
@@ -31,7 +31,6 @@ function About() {
 }
 
 export default About;
-
 
 function ContactCard(props) {
   return (
