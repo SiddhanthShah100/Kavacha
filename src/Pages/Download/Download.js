@@ -10,7 +10,7 @@ const Downloads = () => {
   
   const handleDownloadClick = () => {
     // Replace 'your-apk-file.apk' with the actual file name and path
-    const apkFileUrl = '../app-release.apk';
+    const apkFileUrl = '../../app-release.apk';
 
     // Create a temporary anchor element to initiate the download
     const downloadLink = document.createElement('a');
@@ -19,7 +19,7 @@ const Downloads = () => {
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
-  };
+  };  
   <NavBar />
   return (
     <><><div className='p1'>
