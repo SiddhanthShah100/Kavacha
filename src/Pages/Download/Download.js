@@ -5,17 +5,17 @@ import Screen1 from '../../Images/downloads/Screen1.png';
 import Screen2 from '../../Images/downloads/Screen2.png';
 import Screen4 from '../../Images/downloads/Screen4.png';
 import Screen5 from '../../Images/downloads/Screen5.png';
-
+import appt from "../../Images/app-release.apk"
 const Downloads = () => {
   
   const handleDownloadClick = () => {
     // Replace 'your-apk-file.apk' with the actual file name and path
-    const apkFileUrl = '../../app-release.apk';
+    const apkFileUrl = appt;
 
     // Create a temporary anchor element to initiate the download
     const downloadLink = document.createElement('a');
     downloadLink.href = apkFileUrl;
-    downloadLink.download = 'suraksha.apk'; // Set the desired file name
+    downloadLink.download = 'suraksha'; // Set the desired file name
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);

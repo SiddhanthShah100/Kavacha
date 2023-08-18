@@ -26,17 +26,19 @@
 import { HashLink } from 'react-router-hash-link';
 import './NavBarr.css';
 import { useState } from 'react';
+import avt from "../../Images/app-release.apk";
 
 const NavBar =() => {
 const [open, setOpen] = useState(false)
 const handleDownloadClick = () => {
   // Replace 'your-apk-file.apk' with the actual file name and path
-  const apkFileUrl = '../../app-release.apk';
+  const apkFileUrl = avt;
+  // const apkFileUrl = '../../app-release.apk';
 
   // Create a temporary anchor element to initiate the download
   const downloadLink = document.createElement('a');
   downloadLink.href = apkFileUrl;
-  downloadLink.download = 'suraksha.apk'; // Set the desired file name
+  downloadLink.download = 'suraksha'; // Set the desired file name
   document.body.appendChild(downloadLink);
   downloadLink.click();
   document.body.removeChild(downloadLink);
