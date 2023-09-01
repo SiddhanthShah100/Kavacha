@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28e2f00d.css",
+    "main.js": "/static/js/main.12c28409.js",
+    "static/js/787.35cea4b2.chunk.js": "/static/js/787.35cea4b2.chunk.js",
+    "static/media/app-release.apk": "/static/media/app-release.9287822d9f7130e5f566.apk",
+    "static/media/Screen4.png": "/static/media/Screen4.c4981fed1927981762a1.png",
+    "static/media/banner1.1.png": "/static/media/banner1.1.eef049993710a1adbadd.png",
+    "static/media/banner77.png": "/static/media/banner77.56b8163ca12ec31e99ff.png",
+    "static/media/Screen2.png": "/static/media/Screen2.798775f9aeef5fce1dc5.png",
+    "static/media/banner88.0.png": "/static/media/banner88.0.2c75a5462758b21066ac.png",
+    "static/media/siddhant.jpg": "/static/media/siddhant.55c5d0e0323e28011e1b.jpg",
+    "static/media/Screen1.png": "/static/media/Screen1.36b27c105b7e71ae1dea.png",
+    "static/media/KJSIT_logo.png": "/static/media/KJSIT_logo.4ea6a1b675f612ac5348.png",
+    "static/media/dhruv.jpg": "/static/media/dhruv.88d02b4506c8e03c127f.jpg",
+    "static/media/Screen5.png": "/static/media/Screen5.09a846a6033915a536b9.png",
+    "static/media/DR Kavita Maam.jpg": "/static/media/DR Kavita Maam.7ccc7b0492a15434ab3a.jpg",
+    "static/media/yashkumar.jpg": "/static/media/yashkumar.29ac713edf3134588143.jpg",
+    "static/media/banner2.png": "/static/media/banner2.d83f73dafc33614b5322.png",
+    "static/media/ai-model.png": "/static/media/ai-model.6329a90dee4d0e75d513.png",
+    "static/media/dummy_logo.png": "/static/media/dummy_logo.9f9159fa7fcfc0b710d7.png",
+    "static/media/mail.png": "/static/media/mail.d765005ce9d4caa3d69e.png",
+    "static/media/github.svg": "/static/media/github.ebd452bf402237ef25876cdcac686676.svg",
+    "static/media/instagram.svg": "/static/media/instagram.116ad97e1f8e0638fcb7d5aed6800697.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.42f56d2e4ae6f93ca987e172233e3da8.svg",
+    "main.28e2f00d.css.map": "/static/css/main.28e2f00d.css.map",
+    "main.12c28409.js.map": "/static/js/main.12c28409.js.map",
+    "787.35cea4b2.chunk.js.map": "/static/js/787.35cea4b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28e2f00d.css",
+    "static/js/main.12c28409.js"
+  ]
+}
