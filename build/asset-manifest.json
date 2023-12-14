@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.28e2f00d.css",
-    "main.js": "/static/js/main.12c28409.js",
+    "main.js": "/static/js/main.d03646a2.js",
     "static/js/787.35cea4b2.chunk.js": "/static/js/787.35cea4b2.chunk.js",
-    "static/media/app-release.apk": "/static/media/app-release.9287822d9f7130e5f566.apk",
+    "static/media/app-release.apk": "/static/media/app-release.5de8b9ed7eecbe360e35.apk",
     "static/media/Screen4.png": "/static/media/Screen4.c4981fed1927981762a1.png",
     "static/media/banner1.1.png": "/static/media/banner1.1.eef049993710a1adbadd.png",
     "static/media/banner77.png": "/static/media/banner77.56b8163ca12ec31e99ff.png",
@@ -25,11 +25,11 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.42f56d2e4ae6f93ca987e172233e3da8.svg",
     "main.28e2f00d.css.map": "/static/css/main.28e2f00d.css.map",
-    "main.12c28409.js.map": "/static/js/main.12c28409.js.map",
+    "main.d03646a2.js.map": "/static/js/main.d03646a2.js.map",
     "787.35cea4b2.chunk.js.map": "/static/js/787.35cea4b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28e2f00d.css",
-    "static/js/main.12c28409.js"
+    "static/js/main.d03646a2.js"
   ]
 }
