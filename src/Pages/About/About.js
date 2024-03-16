@@ -19,16 +19,16 @@ function About() {
       <div className="phone d-flex justify-content-evenly">
       <div className='cc'>
           <Card style={{  display: 'flex', flexDirection: 'column' }}>
-            <Card.Img className='image' variant="top" height={200} src={maam} style={{ width: 'fit-content',padding: "0.25rem",alignItems:"ceter"}}/>
+            <Card.Img className='image' alt='/' variant="top" height={200} src={maam} style={{ width: 'fit-content',padding: "0.25rem",alignItems:"ceter"}}/>
             <Card.Body>
               <hr></hr>
               <Card.Title className='title'>Dr. Kavita Bathe</Card.Title>
               
               <div className='d-div'>
-                <Link className="button" to="/" target="_blank"><img src={githubL} className="icon"></img></Link>
-                <Link className="button" to="/" target="_blank"><img src={linkedinL} className="icon"></img></Link>
-                <Link className="button" to="/" target="_blank"><img src={instagramL} className="icon"></img></Link>
-                <a className="button" href="mailto:kavitag@somaiya.edu" target="_blank"><img src={mail} className="icon"></img></a>
+                <Link className="button" to="/" target="_blank"><img src={githubL} className="icon" alt='/'></img></Link>
+                <Link className="button" to="/" target="_blank"><img src={linkedinL} className="icon" alt='/'></img></Link>
+                <Link className="button" to="/" target="_blank"><img src={instagramL} className="icon" alt='/'></img></Link>
+                <a className="button" href="mailto:kavitag@somaiya.edu" target="_blank"><img src={mail} className="icon" alt='/'></img></a>
                 {/* <a href="https://kavitag.@somaiya.edu/" target="_blank" class="button">
   <img src={gmail} class="icon" alt="Gmail Icon"/>
 </a> */}
@@ -39,7 +39,7 @@ function About() {
         </div>
         <div className='cc'>
           <Card style={{  display: 'flex', flexDirection: 'column' }}>
-            <Card.Img className='image' variant="top" height={200} src={dhruv} style={{ width:'fit-content',padding: "0.25rem",alignItems:"ceter"}}/>
+            <Card.Img className='image' alt='/' variant="top" height={200} src={dhruv} style={{ width:'fit-content',padding: "0.25rem",alignItems:"ceter"}}/>
             <Card.Body>
               <hr></hr>
               <Card.Title className='title'>Dhruv Chheda</Card.Title>
@@ -56,7 +56,7 @@ function About() {
 
         <div className='cc'>
           <Card style={{   display: 'flex', flexDirection: 'column' }}>
-            <Card.Img className='image' variant="top" height={200} src={sidd} style={{ width: 'fit-content',padding: "0.25rem"}} />
+            <Card.Img className='image' alt='/' variant="top" height={200} src={sidd} style={{ width: 'fit-content',padding: "0.25rem"}} />
             <Card.Body>
               <hr></hr>
               <Card.Title className='title'>Siddhanth Shah</Card.Title>
@@ -73,7 +73,7 @@ function About() {
         </div>
         <div className='cc'>
           <Card style={{   display: 'flex', flexDirection: 'column' }}>
-            <Card.Img className='image' variant="top" height={200} src={yashkumar} style={{ width:'fit-content',padding: "0.25rem"}}/>
+            <Card.Img className='image' alt='/' variant="top" height={200} src={yashkumar} style={{ width:'fit-content',padding: "0.25rem"}}/>
             <Card.Body>
               <hr></hr>
               <Card.Title className='title'>Yashkumar Dubey</Card.Title>
@@ -101,7 +101,7 @@ function ContactCard(props) {
   return (
     <div className='contact-card'>
       <Card style={{ width: '20rem', display: 'inline-block', flexDirection: 'column' }}>
-        <Card.Img className='image' variant="top" height={200} src={props.Img} style={{ width: '20rem',padding: "0.25rem"}}/>
+        <Card.Img className='image' alt='/' variant="top" height={200} src={props.Img} style={{ width: '20rem',padding: "0.25rem"}}/>
         <Card.Body>
           <hr></hr>
           <Card.Title className='title'>{props.Title}</Card.Title>
