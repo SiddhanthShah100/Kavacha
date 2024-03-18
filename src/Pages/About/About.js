@@ -30,8 +30,8 @@ function About() {
                 <Link className="button" to="/" target="_blank"><img src={instagramL} className="icon" alt='/'></img></Link>
                 <a className="button" href="mailto:kavitag@somaiya.edu" target="_blank"><img src={mail} className="icon" alt='/'></img></a>
                 {/* <a href="https://kavitag.@somaiya.edu/" target="_blank" class="button">
-  <img src={gmail} class="icon" alt="Gmail Icon"/>
-</a> */}
+                    <img src={gmail} class="icon" alt="Gmail Icon"/>
+                  </a> */}
               </div>
               {/* <strong>Mail</strong>:kavitag.@somaiya.edu */}
             </Card.Body>
@@ -45,10 +45,10 @@ function About() {
               <Card.Title className='title'>Dhruv Chheda</Card.Title>
               
               <div className='d-div'>
-                <Link className="button" to="https://github.com/chhedadhruv" target="_blank"><img src={githubL} className="icon"></img></Link>
-                <Link className="button" to="https://www.linkedin.com/in/dhruv-chheda-52637522a" target="_blank"><img src={linkedinL} className="icon"></img></Link>
-                <Link className="button" to="https://instagram.com/chheda.dhruv3?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><img src={instagramL} className="icon"></img></Link>
-                <a className="button" href="mailto:chhedadhruv1234@gmail.com" target="_blank"><img src={mail} className="icon"></img></a>
+                <Link className="button" to="https://github.com/chhedadhruv" target="_blank"><img src={githubL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="https://www.linkedin.com/in/dhruv-chheda-52637522a" target="_blank"><img src={linkedinL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="https://instagram.com/chheda.dhruv3?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank"><img src={instagramL} alt='/' className="icon"></img></Link>
+                <a className="button" href="mailto:chhedadhruv1234@gmail.com" target="_blank"><img src={mail} alt='/' className="icon"></img></a>
               </div>
             </Card.Body>
           </Card>
@@ -62,10 +62,10 @@ function About() {
               <Card.Title className='title'>Siddhanth Shah</Card.Title>
              
               <div className='d-div'>
-                <Link className="button" to="https://github.com/SiddhanthShah100" target="_blank"><img src={githubL} className="icon"></img></Link>
-                <Link className="button" to="https://www.linkedin.com/in/siddhanth-shah-a06a15252" target="_blank"><img src={linkedinL} className="icon"></img></Link>
-                <Link className="button" to="#" target="_blank"><img src={instagramL} className="icon"></img></Link>
-                <a className="button" href="mailto:siddhanth.shah@somaiya.edu" target="_blank"><img src={mail} className="icon"></img></a>
+                <Link className="button" to="https://github.com/SiddhanthShah100" target="_blank"><img src={githubL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="https://www.linkedin.com/in/siddhanth-shah-a06a15252" target="_blank"><img src={linkedinL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="#" target="_blank"><img src={instagramL} alt='/' className="icon"></img></Link>
+                <a className="button" href="mailto:siddhanth.shah@somaiya.edu" target="_blank"><img src={mail} alt='/' className="icon"></img></a>
               </div>
             
             </Card.Body>
@@ -79,10 +79,27 @@ function About() {
               <Card.Title className='title'>Yashkumar Dubey</Card.Title>
          
               <div className='d-div'>
-                <Link className="button" to="https://github.com/YashAPro1" target="_blank"><img src={githubL} className="icon"></img></Link>
-                <Link className="button" to="https://www.linkedin.com/in/yashkumar-dubey-716933222" target="_blank"><img src={linkedinL} className="icon"></img></Link>
-                <Link className="button" to="https://www.instagram.com/dubeyyash758/" target="_blank"><img src={instagramL} className="icon"></img></Link>
-                <a className="button" href="mailto:yashkumar.d@somaiya.edu" target="_blank"><img src={mail} className="icon"></img></a>
+                <Link className="button" to="https://github.com/YashAPro1" target="_blank"><img src={githubL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="https://www.linkedin.com/in/yashkumar-dubey-716933222" target="_blank"><img src={linkedinL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="https://www.instagram.com/dubeyyash758/" target="_blank"><img src={instagramL} alt='/' className="icon"></img></Link>
+                <a className="button" href="mailto:yashkumar.d@somaiya.edu" target="_blank"><img src={mail} alt='/' className="icon"></img></a>
+              </div>
+             
+            </Card.Body>
+          </Card>
+        </div>
+        <div className='cc'>
+          <Card style={{   display: 'flex', flexDirection: 'column' }}>
+            <Card.Img className='image' alt='/' variant="top" height={200}  style={{ width:'fit-content',padding: "0.25rem"}}/>
+            <Card.Body>
+              <hr></hr>
+              <Card.Title className='title'>Soham Pingale</Card.Title>
+         
+              <div className='d-div'>
+                <Link className="button" to="/" target="_blank"><img src={githubL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="/" target="_blank"><img src={linkedinL} alt='/' className="icon"></img></Link>
+                <Link className="button" to="/" target="_blank"><img src={instagramL} alt='/' className="icon"></img></Link>
+                <a className="button" href="/" target="_blank"><img src={mail} alt='/' className="icon"></img></a>
               </div>
              
             </Card.Body>
@@ -107,7 +124,7 @@ function ContactCard(props) {
           <Card.Title className='title'>{props.Title}</Card.Title>
           <Card.Text className='text'>{props.Text}</Card.Text>
           <div className='d-div'>
-            <Link className="button" to="www.google.com" target="_blank"><img src={githubL} className="icon"></img></Link>
+            <Link className="button" to="www.google.com" target="_blank"><img src={githubL} alt='/' className="icon"></img></Link>
             
           </div>
         </Card.Body>

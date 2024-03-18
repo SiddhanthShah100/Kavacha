@@ -1,38 +1,6 @@
-/* .contactcard {
- 
-
-} */
-
-
-
 .cc{
   margin-right: 2%;
 }
-
-
-
-
-/* .wrapper {
-    display: flex;
-  }
-  
-  .contact-card {
-    width: auto;
-    margin-right: 16px;
-    height: 250px;
-  }
-  
-  .image {
-    height: 200px;
-  }
-  
-  .title {
-    font-weight: bold;
-  }
-  
-  .text {
-    color: #555;
-  } */
   
   .image {
    display: flex;
@@ -90,30 +58,3 @@
   margin-right: 2%;
 
 }
-
-
-
-
-/* .Wrapper{
-    margin: 2rem;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr;
-    justify-content: center;
-}
-
-.contact-card{
-    box-shadow: 0 0 10px 5px gray;
-    border-radius: 5px;
-    min-width: 18rem;
-    display: flex;
-    padding: 16px;
-    margin-right: 16px;
-
-
-    &__Img{
-        width: auto;
-        height: auto;
-        object-fit: cover;
-    }
-} */

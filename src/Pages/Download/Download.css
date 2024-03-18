@@ -7,10 +7,10 @@
 }
 
 .Screen1 {
-    height: 500px;
-    width: 255px;
-    margin-left: 10%;
-    margin-top: 8%;
+    margin-top: 15vh;
+    width: 21vw;
+    height: auto;
+    margin-left:10vw;
 }
 
 .word1 {
@@ -36,17 +36,32 @@
 }
 
 .Screen2 {
-    height: 500px;
-    width: 255px;
-    margin-right: 80%;
+    height: 65vh;
+    margin-left: 10vh;
+}
+
+.Screen3 {
+    width: 17vw;
+    height: 59vh;
+    margin-left:10vw;
 }
 
 .word2 {
+    margin-top: 12%;
+    padding-left: 5vw;
+    font-weight: 500;
+    font-size: 40px;
+    margin-right: 3vw;
+    color: black;
+}
+
+.word3 {
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
     font-weight: 500;
     font-size: 40px;
     color: black;
+    text-align: left;
 }
 
 .p00 {
@@ -56,12 +71,14 @@
 }
 
 .pp{
-    height: 25vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
 }
 
 .ww{
-    margin-left: 40%;
     margin-top: 2%;
     font-size: 25px;
 }
@@ -69,36 +86,41 @@
 
 @media (max-width: 780px) {
     .Screen1 {
-        margin-left: 20%;
-        margin-right: 10px;
-        width: 300%;
-        max-width: 240px;
-        max-height: 450px;
-        margin-top: 10%;
+        margin-top: 1%;
+        width: 90vw;
     }
 
     .part1 {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .Screen2 {
         margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        max-width: 300px;
     }
 
     .part2 {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Screen3 {
+        width: auto;
+        margin-right: 5vw;
+        height: 65vh;
+    
     }
 
     .word1,
-    .word2 {
+    .word2,
+    .word3 {
         margin-left: 5%;
         margin-top: 10%;
         font-size: 24px;
+        overflow: hidden;
     }
 
     .p0,
@@ -108,23 +130,24 @@
 
     .p1,.p2 {
         border-radius: 0% 20% 0 20%;
+        overflow-y: hidden;
     }
 
     .pp {
         height: 20vh;
-      }
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
       
-      .ww {
-        margin-left: 17%;
+    .ww {
         margin-top: 5%;
         font-size: 22px;
-      }
+    }
     
       .download-button {
         padding: 5px 40px!important;
         font-size: 20px!important;
-        margin-left: 22%!important;
-        margin-top: 5%!important;
         overflow-y: hidden!important;
       }
 }
@@ -139,10 +162,23 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    margin-left: 40%;
     margin-top: 2%;
     cursor: pointer;
     animation: pop 2.5s infinite;
+  }
+
+  .play-button{
+    width: 20vw;
+    align-items: center;
+    display: flex;
+  }
+
+  .pp2{
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
   }
 
   @keyframes pop {
@@ -150,10 +186,12 @@
       transform: scale(1);
     }
     50% {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
     100% {
       transform: scale(1);
     }
   }
+  
+
   
